@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #58b19f;
+}
+
+.box {
+  width: 700px;
+  min-height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.title {
+  background-color: #58b19f;
+  color: white;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+#item {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: block;
+  box-shadow: 0 0 10px #9aecdb;
+  margin-top: 15px;
+}
+
+#todo-box {
+  margin-top: 20px;
+  list-style: none;
+}
+
+#todo-box li {
+  position: relative;
+  color: white;
+  background-color: #38ada9;
+  padding: 10px;
+  padding-right: 30px;
+  margin-top: 10px;
+  border-radius: 2px;
+  user-select: none;
+  cursor: pointer;
+}
+
+#todo-box li i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.done {
+  color: black;
+  background-color: #9aecdb !important;
+}
+
+.add {
+  background-color: #58b19f;
+  color: white;
+  font-weight: bold;
+  padding: 15px 31px;
+  margin-top: 50px;
+  margin-left: 590px;
+  border: none;
+  /* border-radius: 20px; */
+}
